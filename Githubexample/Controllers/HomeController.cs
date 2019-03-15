@@ -16,6 +16,7 @@ namespace Githubexample.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
+            //comment view 1
 
             return View();
         }
