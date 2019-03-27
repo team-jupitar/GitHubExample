@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 
 namespace Githubexample.Controllers
-{
+{//Candidate release
     public class HomeController : Controller
     {
         public ActionResult Index()
