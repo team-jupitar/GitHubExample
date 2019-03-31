@@ -37,6 +37,15 @@ namespace Githubexample.Controllers
 
             return View();
         }
+        public ActionResult TestMA1()
+        {
+            ViewBag.Message = "Your application description page.";
+            //comment view 1
+            //comment by mohit
+
+            return View();
+        }
+
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
