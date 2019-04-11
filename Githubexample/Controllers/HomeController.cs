@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 
 namespace Githubexample.Controllers
-{
+{//Candidate release
     public class HomeController : Controller
     {
         public ActionResult Index()
@@ -14,6 +14,32 @@ namespace Githubexample.Controllers
         }
 
         public ActionResult About()
+        {
+            ViewBag.Message = "Your application description page.";
+
+            ViewBag.Message = "Your application description page.";
+            //comment view 1
+            //comment by mohit
+
+            return View();
+        }
+        public ActionResult Test()
+        {
+            ViewBag.Message = "Your application description page.";
+            //comment view 1
+            //comment by mohit
+
+            return View();
+        }
+        public ActionResult TestMA()
+        {
+            ViewBag.Message = "Your application description page.";
+            //comment view 1
+            //comment by mohit
+
+            return View();
+        }
+        public ActionResult TestMA1()
         {
             ViewBag.Message = "Your application description page.";
             //comment view 1
