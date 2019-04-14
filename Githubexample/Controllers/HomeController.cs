@@ -23,6 +23,17 @@ namespace Githubexample.Controllers
 
             return View();
         }
+        public ActionResult testbeta()
+        {
+            ViewBag.Message = "Your application description page.";
+
+            ViewBag.Message = "Your application description page.";
+            //comment view 1
+            //comment by mohit
+
+            return View();
+        }
+
         public ActionResult Test()
         {
             ViewBag.Message = "Your application description page.";
