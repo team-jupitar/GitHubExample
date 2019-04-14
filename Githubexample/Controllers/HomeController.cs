@@ -12,6 +12,16 @@ namespace Githubexample.Controllers
         {
             return View();
         }
+        public ActionResult testMethodStash3()
+        {
+            ViewBag.Message = "Your application description page.";
+
+            ViewBag.Message = "Your application description page.";
+            //comment view 1
+            //comment by mohit
+
+            return View();
+        }
         public ActionResult testMethodStash1()
         {
             ViewBag.Message = "Your application description page.";
