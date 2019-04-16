@@ -12,6 +12,17 @@ namespace Githubexample.Controllers
         {
             return View();
         }
+
+        public ActionResult marBranch4()
+        {
+            ViewBag.Message = "Your application april marBranch4 page.";
+
+            ViewBag.Message = "Your application april marBranch4 page.";
+            //comment view 1
+            //comment by mohit
+
+            return View();
+        }
         public ActionResult maraprfeaturebrach4()
         {
             ViewBag.Message = "Your application april maraprfeaturebrach3 page.";
