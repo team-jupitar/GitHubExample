@@ -12,7 +12,16 @@ namespace Githubexample.Controllers
         {
             return View();
         }
+        public ActionResult maraprfeaturemthod1()
+        {
+            ViewBag.Message = "Your application april feature page.";
 
+            ViewBag.Message = "Your application april feature page.";
+            //comment view 1
+            //comment by mohit
+
+            return View();
+        }
         public ActionResult testMethodStash4()
         {
             ViewBag.Message = "Your application description page.";
