@@ -13,6 +13,37 @@ namespace Githubexample.Controllers
             return View();
         }
 
+
+        public ActionResult maraprfeaturemthod3()
+        {
+            ViewBag.Message = "Your application april feature3 page.";
+
+            ViewBag.Message = "Your application april feature3 page.";
+            //comment view 1
+            //comment by mohit
+
+            return View();
+        }
+        public ActionResult maraprfeaturemthod2()
+        {
+            ViewBag.Message = "Your application april feature2 page.";
+
+            ViewBag.Message = "Your application april feature2 page.";
+            //comment view 1
+            //comment by mohit
+
+            return View();
+        }
+        public ActionResult maraprfeaturemthod1()
+        {
+            ViewBag.Message = "Your application april feature page.";
+
+            ViewBag.Message = "Your application april feature page.";
+            //comment view 1
+            //comment by mohit
+
+            return View();
+        }
         public ActionResult testMethodStash4()
         {
             ViewBag.Message = "Your application description page.";
