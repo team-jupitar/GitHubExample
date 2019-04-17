@@ -82,7 +82,7 @@ namespace Githubexample.Controllers
 
         public ActionResult TestRBeta()
             {
-            return View();
+                return View(); 
             }
 
         public ActionResult maraprfeaturemthod3()
