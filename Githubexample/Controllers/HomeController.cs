@@ -15,11 +15,17 @@ namespace Githubexample.Controllers
 
         public ActionResult LoadData()
         {
-            ViewData["Message"] = "Can i Use this?";
-            ViewData["Message"] = "Can i Use this?";
+           ViewData["Message"]="User ViewData";
             return View();
         }
 
+
+        public ActionResult TestApril()
+            {
+            ViewData["Merge"]="Merge";
+            ViewData["Check"] = "Checked";
+            return View();
+}
 
         public ActionResult maraprfeaturemthod3()
         {
