@@ -16,6 +16,7 @@ namespace Githubexample.Controllers
         public ActionResult LoadData()
         {
             ViewData["Message"] = "Can i Use this?";
+            ViewData["Message"] = "Can i Use this?";
             return View();
         }
 
