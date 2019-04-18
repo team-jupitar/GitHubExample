@@ -16,6 +16,7 @@ namespace Githubexample.Controllers
 
         public ActionResult TestApril()
             {
+            ViewData["Check"] = "Checked";
             return View();
 }
 
