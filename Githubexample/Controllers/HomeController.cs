@@ -13,6 +13,11 @@ namespace Githubexample.Controllers
             return View();
         }
 
+        public ActionResult LoadData()
+        {
+            return View();
+        }
+
 
         public ActionResult maraprfeaturemthod3()
         {
