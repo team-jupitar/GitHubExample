@@ -14,6 +14,11 @@ namespace Githubexample.Controllers
         }
 
 
+        public ActionResult TestApril()
+            {
+            return View();
+}
+
         public ActionResult maraprfeaturemthod3()
         {
             ViewBag.Message = "Your application april feature3 page.";
