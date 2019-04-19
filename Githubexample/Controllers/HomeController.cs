@@ -16,6 +16,7 @@ namespace Githubexample.Controllers
         public ActionResult LoadData()
         {
            ViewData["Message"]="User ViewData";
+            ViewBag.canI="Don't Use It";
             return View();
         }
 
