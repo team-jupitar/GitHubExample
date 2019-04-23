@@ -16,69 +16,17 @@ namespace Githubexample.Controllers
         public ActionResult LoadData()
         {
            ViewData["Message"]="User ViewData";
-
-
-            ViewBag.canI="Don't Use It. Its new method.";
-            ViewBag.can2="Don't Use It. Its new method.2";
-            TempData["Temp"]="Data";
-
-            ViewBag.canI="Don't Use It. Its new method. Not tested yet";
-            return View();
-        }
-
-        public ActionResult LoadData1()
-        {
-           ViewData["Message"]="1";
-            ViewBag.canI="1";
-            TempData["Temp"]="1";
-
+            ViewBag.canI="Don't Use It";
             return View();
         }
 
 
-           public ActionResult LoadData2()
-        {
-           ViewData["Message"]="2";
-            ViewBag.canI="2";
-            TempData["Temp"]="2";
-
-            return View();
-        }
-
-
-        
-           public ActionResult LoadData2()
-        {
-           ViewData["Message"]="2";
-            ViewBag.canI="2";
-            TempData["Temp"]="2";
-
-            return View();
-        }
-
-
-            public ActionResult LoadData3()
-        {
-           ViewData["Message"]="3";
-            ViewBag.canI="3";
-            TempData["Temp"]="3";
-
-            return View();
-        }
-
-
-           public ActionResult LoadData4()
-        {
-           ViewData["Message"]="4";
-            ViewBag.canI="4";
-            TempData["Temp"]="4";
-
-            return View();
-        }
-
-
-
-           
+        public ActionResult TestApril()
+            {
+                ViewData["Merge"]="Merge";
+                ViewData["Check"] = "Checked";
+                return View();
+            }
 
         public ActionResult TestRBeta()
         {
