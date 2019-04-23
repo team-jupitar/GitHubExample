@@ -13,6 +13,13 @@ namespace Githubexample.Controllers
             return View();
         }
 
+        public ActionResult LoadData()
+        {
+            ViewData["Message"] = "User ViewData";
+            ViewBag.canI = "Don't Use It12";
+            return View();
+        }
+
         public ActionResult marBranch4()
         {
             ViewBag.Message = "Your application april marBranch4 page.";
