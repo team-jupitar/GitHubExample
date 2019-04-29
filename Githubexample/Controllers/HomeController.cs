@@ -16,7 +16,7 @@ namespace Githubexample.Controllers
         public ActionResult LoadData()
         {
            ViewData["Message"]="User ViewData";
-            ViewBag.canI="Don't Use It. Its new method.";
+            ViewBag.canI="Don't Use It. Its new method. Not tested yet";
             return View();
         }
 
