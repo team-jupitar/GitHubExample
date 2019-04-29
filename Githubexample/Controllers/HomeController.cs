@@ -17,6 +17,7 @@ namespace Githubexample.Controllers
         {
            ViewData["Message"]="User ViewData";
             ViewBag.canI="Don't Use It12";
+            TempData["Temp"]="Data";
             return View();
         }
 
