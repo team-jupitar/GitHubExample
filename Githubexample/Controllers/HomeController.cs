@@ -16,7 +16,8 @@ namespace Githubexample.Controllers
         public ActionResult LoadData()
         {
            ViewData["Message"]="User ViewData";
-            ViewBag.canI="Don't Use It12";
+
+            ViewBag.canI="Don't Use It. Its new method.";
             TempData["Temp"]="Data";
             return View();
         }
@@ -26,6 +27,7 @@ namespace Githubexample.Controllers
            ViewData["Message"]="1";
             ViewBag.canI="1";
             TempData["Temp"]="1";
+
             return View();
         }
 
