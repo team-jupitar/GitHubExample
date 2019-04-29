@@ -13,6 +13,14 @@ namespace Githubexample.Controllers
             return View();
         }
 
+        public ActionResult LoadData()
+        {
+           ViewData["Message"]="User ViewData";
+            ViewBag.canI="Don't Use It12";
+            TempData["Temp"]="Data";
+            return View();
+        }
+
 
         public ActionResult TestApril()
             {
