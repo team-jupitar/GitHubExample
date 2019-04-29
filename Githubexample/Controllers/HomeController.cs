@@ -21,6 +21,14 @@ namespace Githubexample.Controllers
             return View();
         }
 
+        public ActionResult LoadData1()
+        {
+           ViewData["Message"]="1";
+            ViewBag.canI="1";
+            TempData["Temp"]="1";
+            return View();
+        }
+
 
         public ActionResult TestApril()
             {
