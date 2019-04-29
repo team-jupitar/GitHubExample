@@ -16,7 +16,8 @@ namespace Githubexample.Controllers
         public ActionResult LoadData()
         {
            ViewData["Message"]="User ViewData";
-            ViewBag.canI="Don't Use It";
+            ViewBag.canI="Don't Use It12";
+            TempData["Temp"]="Datas";
             return View();
         }
 
@@ -24,14 +25,9 @@ namespace Githubexample.Controllers
         public ActionResult TestApril()
             {
             ViewData["Merge"]="Merge";
-            ViewData["Check"] = "Checkeds";
+            ViewData["Check"] = "Checking";
             return View();
 }
-
-        public ActionResult TestRBeta()
-        {
-            return View(); 
-        }
 
         public ActionResult maraprfeaturemthod3()
         {
