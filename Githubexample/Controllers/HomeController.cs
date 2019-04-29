@@ -14,6 +14,13 @@ namespace Githubexample.Controllers
         }
 
 
+        public ActionResult TestApril()
+            {
+            ViewData["Merge"]="Merge";
+            ViewData["Check"] = "Checking";
+            return View();
+}
+
         public ActionResult maraprfeaturemthod3()
         {
             ViewBag.Message = "Your application april feature3 page.";
