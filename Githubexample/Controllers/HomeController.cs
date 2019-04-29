@@ -17,9 +17,12 @@ namespace Githubexample.Controllers
         {
            ViewData["Message"]="User ViewData";
 
+
             ViewBag.canI="Don't Use It. Its new method.";
             ViewBag.can2="Don't Use It. Its new method.2";
             TempData["Temp"]="Data";
+
+            ViewBag.canI="Don't Use It. Its new method. Not tested yet";
             return View();
         }
 
