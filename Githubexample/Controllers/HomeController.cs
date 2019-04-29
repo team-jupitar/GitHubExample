@@ -67,6 +67,15 @@ namespace Githubexample.Controllers
         }
 
 
+           public ActionResult LoadData4()
+        {
+           ViewData["Message"]="4";
+            ViewBag.canI="4";
+            TempData["Temp"]="4";
+
+            return View();
+        }
+
 
 
            
