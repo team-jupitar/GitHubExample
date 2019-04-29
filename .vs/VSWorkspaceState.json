@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Githubexample",
+    "\\Githubexample\\Controllers"
   ],
-  "SelectedNode": "\\Githubexample.sln",
+  "SelectedNode": "\\Githubexample\\Controllers\\HomeController.cs",
   "PreviewInSolutionExplorer": false
 }
