@@ -13,6 +13,17 @@ namespace Githubexample.Controllers
             return View();
         }
 
+        public ActionResult UpdateGridData()
+        {
+            return PartialView();
+        }
+
+        public ActionResult UpdateUserInfo()
+        {
+            return PartialView();
+        }
+
+
         public ActionResult LoadData()
         {
             ViewData["Message"] = "User ViewData";
