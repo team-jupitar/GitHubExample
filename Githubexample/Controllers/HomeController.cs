@@ -13,6 +13,17 @@ namespace Githubexample.Controllers
             return View();
         }
 
+        public ActionResult UpdateGridData()
+        {
+            return PartialView();
+        }
+
+        public ActionResult UpdateUserInfo()
+        {
+            return PartialView();
+        }
+
+
         public ActionResult LoadData()
         {
            ViewData["Message"]="User ViewData";
@@ -66,8 +77,20 @@ namespace Githubexample.Controllers
         }
 
 
+        public ActionResult Feature1()
+        {
+            TempData["Data"] = "Temp Data is important";
+            return View();
+        }
 
-           
+        public ActionResult Feature2()
+        {
+            ViewData["Data"] = "So View Data is.";
+            return View();
+        }
+
+
+
 
         public ActionResult maraprfeaturemthod3()
         {
