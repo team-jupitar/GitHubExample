@@ -46,9 +46,6 @@ namespace Githubexample.Controllers
         }
 
 
-       
-
-
             public ActionResult LoadData3()
         {
            ViewData["Message"]="3";
