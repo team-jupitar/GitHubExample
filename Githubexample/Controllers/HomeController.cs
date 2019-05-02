@@ -46,7 +46,6 @@ namespace Githubexample.Controllers
         }
 
 
-
             public ActionResult LoadData3()
         {
            ViewData["Message"]="3";
@@ -67,8 +66,20 @@ namespace Githubexample.Controllers
         }
 
 
+        public ActionResult Feature1()
+        {
+            TempData["Data"] = "Temp Data is important";
+            return View();
+        }
 
-           
+        public ActionResult Feature2()
+        {
+            ViewData["Data"] = "So View Data is.";
+            return View();
+        }
+
+
+
 
         public ActionResult maraprfeaturemthod3()
         {
