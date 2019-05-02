@@ -13,11 +13,25 @@ namespace Githubexample.Controllers
             return View();
         }
 
+        public ActionResult LoadData()
+        {
+           ViewData["Message"]="User ViewData";
+           ViewBag.canI="Don't Use It12";
+            return View();
+        }
+
+        public ActionResult LoadDataNewTest()
+        {
+            ViewData["Message"] = "User ViewData";
+            ViewBag.canI = "Don't Use It12";
+
+            return View();
+        }
 
         public ActionResult TestApril()
             {
             ViewData["Merge"]="Merge";
-            ViewData["Check"] = "Checking";
+            ViewData["Check"] = "Checkeds";
             return View();
 }
 
