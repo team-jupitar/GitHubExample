@@ -16,18 +16,34 @@ namespace Githubexample.Controllers
         public ActionResult LoadData()
         {
            ViewData["Message"]="User ViewData";
-            ViewBag.canI="Don't Use It12";
-            TempData["Temp"]="Datas";
+
+
+            ViewBag.canI="Don't Use It. Its new method.";
+            ViewBag.can2="Don't Use It. Its new method.2";
+            TempData["Temp"]="Data";
+
+            ViewBag.canI="Its new method. Not tested yet";
+            return View();
+        }
+
+        public ActionResult LoadData1()
+        {
+           ViewData["Message"]="1";
+            ViewBag.canI="1";
+            TempData["Temp"]="1";
+
             return View();
         }
 
 
-        public ActionResult TestApril()
-            {
-            ViewData["Merge"]="Merge";
-            ViewData["Check"] = "Checking";
+           public ActionResult LoadData2()
+        {
+           ViewData["Message"]="2";
+            ViewBag.canI="2";
+            TempData["Temp"]="2";
+
             return View();
-}
+        }
 
 
         
@@ -50,6 +66,15 @@ namespace Githubexample.Controllers
             return View();
         }
 
+
+           public ActionResult LoadData4()
+        {
+           ViewData["Message"]="4";
+            ViewBag.canI="4";
+            TempData["Temp"]="4";
+
+            return View();
+        }
 
 
 
