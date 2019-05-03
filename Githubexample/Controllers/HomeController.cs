@@ -33,6 +33,11 @@ namespace Githubexample.Controllers
             return PartialView();
         }
 
+        public ActionResult UpdateActivities()
+        {
+            return PartialView();
+        }
+
 
 
         public ActionResult LoadData()
