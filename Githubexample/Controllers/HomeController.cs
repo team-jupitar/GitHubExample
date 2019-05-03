@@ -24,6 +24,13 @@ namespace Githubexample.Controllers
         }
 
 
+        public ActionResult SaveActivities()
+        {
+            return PartialView();
+        }
+
+
+
         public ActionResult LoadData()
         {
             ViewData["Message"] = "User ViewData";
