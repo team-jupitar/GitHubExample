@@ -23,6 +23,12 @@ namespace Githubexample.Controllers
             return PartialView();
         }
 
+        public ActionResult GetACtivities()
+        {
+            return PartialView();
+        }
+
+
 
         public ActionResult LoadData()
         {
