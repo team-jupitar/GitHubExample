@@ -19,6 +19,16 @@ namespace Githubexample.Controllers
             return View();
         }
 
+
+
+        public ActionResult Reset()
+        {
+            return PartialView();
+        }
+
+
+
+
         public ActionResult UpdateGridData()
         {
             return PartialView();
