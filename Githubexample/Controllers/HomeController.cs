@@ -10,12 +10,6 @@ namespace Githubexample.Controllers
     {
         public ActionResult Index()
         {
-
-            return View();
-        }
-
-        public ActionResult Revert()
-        {
             return View();
         }
 
