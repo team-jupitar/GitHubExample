@@ -28,6 +28,12 @@ namespace Githubexample.Controllers
 
 
 
+        public ActionResult ResetAgain()
+        {
+            return PartialView();
+        }
+
+
 
         public ActionResult UpdateGridData()
         {
