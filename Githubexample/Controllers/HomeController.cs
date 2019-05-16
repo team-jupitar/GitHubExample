@@ -21,6 +21,13 @@ namespace Githubexample.Controllers
 
 
 
+        public ActionResult Revert2()
+        {
+            return View();
+        }
+
+
+
         public ActionResult Reset()
         {
             return PartialView();
