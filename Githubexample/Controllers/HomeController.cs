@@ -33,6 +33,10 @@ namespace Githubexample.Controllers
             return PartialView();
         }
 
+        public ActionResult TestCherryPickAgain()
+        {
+            return PartialView();
+        }
 
 
         public ActionResult LoadData()
