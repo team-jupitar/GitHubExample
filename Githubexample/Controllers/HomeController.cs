@@ -23,6 +23,11 @@ namespace Githubexample.Controllers
             return PartialView();
         }
 
+        public ActionResult CherryPick()
+        {
+            return PartialView();
+        }
+
 
         public ActionResult LoadData()
         {
