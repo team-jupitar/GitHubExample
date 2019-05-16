@@ -33,6 +33,18 @@ namespace Githubexample.Controllers
             return PartialView();
         }
 
+
+        public ActionResult PullReq()
+        {
+            return PartialView();
+        }
+
+        public ActionResult MohitNiManda()
+        {
+            return PartialView();
+        }
+
+
         public ActionResult TestCherryPick()
         {
             return PartialView();
@@ -84,6 +96,12 @@ namespace Githubexample.Controllers
         }
 
         public ActionResult MohitTest456()
+        {
+            ViewData["Info"] = "This is test method";
+            return View();
+        }
+
+        public ActionResult MohitTest789()
         {
             ViewData["Info"] = "This is test method";
             return View();
