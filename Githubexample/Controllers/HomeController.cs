@@ -79,6 +79,18 @@ namespace Githubexample.Controllers
             return View();
         }
 
+        public ActionResult MohitTest123()
+        {
+            ViewData["Info"] = "This is test method";
+            return View();
+        }
+
+        public ActionResult MohitTest456()
+        {
+            ViewData["Info"] = "This is test method";
+            return View();
+        }
+
         public ActionResult MohitFunctionSecond()
         {
             ViewData["Info"] = "This is test method";
