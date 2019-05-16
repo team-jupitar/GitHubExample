@@ -34,6 +34,7 @@ namespace Githubexample.Controllers
             TempData["Temp"]="Data";
 
             ViewBag.canI="Its new method. Not tested yet";
+            ViewBag.canI = "Changes in Mohit Branch.";
             return View();
         }
 
