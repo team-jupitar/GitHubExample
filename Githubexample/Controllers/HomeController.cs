@@ -46,6 +46,12 @@ namespace Githubexample.Controllers
 
         public ActionResult LoadData1()
         {
+            ViewData["Info"] = "This is test method";
+            return View();
+        }
+
+        public ActionResult LoadData1()
+        {
             ViewBag.Message = "Your application april marBranch4 page.";
 
             ViewBag.Message = "Your application april marBranch4 page.";
