@@ -23,6 +23,21 @@ namespace Githubexample.Controllers
             return PartialView();
         }
 
+        public ActionResult CherryPick()
+        {
+            return PartialView();
+        }
+
+        public ActionResult TestCherryPick()
+        {
+            return PartialView();
+        }
+
+        public ActionResult TestCherryPickAgain()
+        {
+            return PartialView();
+        }
+
 
         public ActionResult LoadData()
         {
@@ -34,6 +49,25 @@ namespace Githubexample.Controllers
             TempData["Temp"]="Data";
 
             ViewBag.canI="Its new method. Not tested yet";
+            ViewBag.canI = "Changes in Mohit Branch.";
+            return View();
+        }
+
+        public ActionResult MohitFunction()
+        {
+            ViewData["Info"] = "This is test method";
+            return View();
+        }
+
+        public ActionResult MohitFunctionFirst()
+        {
+            ViewData["Info"] = "This is test method";
+            return View();
+        }
+
+        public ActionResult MohitFunctionSecond()
+        {
+            ViewData["Info"] = "This is test method";
             return View();
         }
 
