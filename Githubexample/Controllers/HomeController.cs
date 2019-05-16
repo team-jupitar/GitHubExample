@@ -38,7 +38,13 @@ namespace Githubexample.Controllers
             return View();
         }
 
-        public ActionResult marBranch4()
+        public ActionResult MohitFunction()
+        {
+            ViewData["Info"] = "This is test method";
+            return View();
+        }
+
+        public ActionResult LoadData1()
         {
             ViewBag.Message = "Your application april marBranch4 page.";
 
