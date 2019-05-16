@@ -40,7 +40,7 @@ namespace Githubexample.Controllers
             ViewBag.Message = "Your application april feature3 page.";
 
             ViewBag.Message = "Your application april feature3 page.";
-            ViewBag.Message = "Changes in RBeta, Changes";
+            ViewBag.Message = "Changes in RBeta, Changes ";
             //comment view 1
             //comment by mohit
 
