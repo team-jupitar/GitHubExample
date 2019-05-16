@@ -62,16 +62,16 @@ namespace Githubexample.Controllers
             return View();
         }
 
-        public ActionResult LoadData1()
-        {
-            ViewBag.Message = "Your application april marBranch4 page.";
+        //public ActionResult LoadData1()
+        //{
+        //    ViewBag.Message = "Your application april marBranch4 page.";
 
-            ViewBag.Message = "Your application april marBranch4 page.";
-            //comment view 1
-            //comment by mohit
+        //    ViewBag.Message = "Your application april marBranch4 page.";
+        //    //comment view 1
+        //    //comment by mohit
 
-            return View();
-        }
+        //    return View();
+        //}
         public ActionResult marcandidate()
         {
             ViewBag.Message = "Your application april marcandidate page.";
