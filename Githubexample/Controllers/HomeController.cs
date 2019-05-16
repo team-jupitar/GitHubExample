@@ -39,6 +39,13 @@ namespace Githubexample.Controllers
         }
 
 
+
+        public ActionResult TestCherryPickFerToh()
+        {
+            return PartialView();
+        }
+
+
         public ActionResult LoadData()
         {
            ViewData["Message"]="User ViewData";
