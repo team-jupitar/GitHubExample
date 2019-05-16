@@ -28,6 +28,13 @@ namespace Githubexample.Controllers
             return PartialView();
         }
 
+
+        public ActionResult PullReq()
+        {
+            return PartialView();
+        }
+
+
         public ActionResult TestCherryPick()
         {
             return PartialView();
