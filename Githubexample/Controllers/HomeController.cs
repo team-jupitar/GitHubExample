@@ -34,6 +34,11 @@ namespace Githubexample.Controllers
             return PartialView();
         }
 
+        public ActionResult MohitNiManda()
+        {
+            return PartialView();
+        }
+
 
         public ActionResult TestCherryPick()
         {
