@@ -15,6 +15,7 @@ namespace Githubexample.Controllers
 
         public ActionResult UpdateGridData()
         {
+            string AA = "";
             return PartialView();
         }
 
