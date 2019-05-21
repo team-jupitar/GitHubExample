@@ -13,6 +13,13 @@ namespace Githubexample.Controllers
             return View();
         }
 
+
+        public ActionResult RecordInfo()
+        {
+            return PartialView();
+        }
+
+
         public ActionResult UpdateGridData()
         {
             string AA = "";
